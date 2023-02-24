@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>03 - Form</title>
+     <link rel="stylesheet" href="first_page.css"/>
+    <script defer src="contact.js"></script>
+  </head>
+  <body class = "body" id = "body">
+    <div class="area" id = "area">
+    <div class = "center" id = "center" >
+    <main>
+      <form class="form" id = "form" action="">
+        <h1 class="title" id = "title">Contact Form</h1>
+				<div class="name" id = "name">
+					<label for="username" >Username:</label> <input id="username" name="username" type="text">
+				</div>
+				<div class="mail" id = "mail">
+					<label for="email" >Email:</label> <input id="email" name="email" type="email">
+				</div>
+                <div class="phn" id = "phn">
+					<label for="phone" >Phone:</label> <input id="phone" name="phone" type="phone">
+				</div>
+				<div class="addr" id = "addr">
+					<label for="address" >Address:</label> <textarea id="address" name="address" type="address"> </textarea>
+				</div>
+                <div class="text" id = "text">
+					<label for="textarea" >Message:</label> <textarea id="textarea" name="textarea" type="textarea"> </textarea>
+				</div>
+				
+				<label class="date" for="date" id = "date_label">Date:</label> <input id="date" name="date" type="date">
+				<div class="btn" id = "btn">
+					<input class="btn-primary" id = "btn_primary" type="submit" value="Send"> 
+          <input class="btn-secondary" id = "btn_secondary" type="reset" value="Reset">
+				</div>
+      </form>
+    </main>
+    </div>
+    </div>
+  </body>
+</html>

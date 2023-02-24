@@ -1,0 +1,47 @@
+
+/*class heading not working*/
+
+.heading{
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.para{
+    display: block;
+    margin-left: 100px;
+    margin-right: 150px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    }
+
+.resume{
+    display: block;
+    background-color: white;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 20px;
+
+}
+
+.education{
+    font-weight: bold;
+}
+
+.college{
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.title{
+    margin-left: 110px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+.list{
+    list-style-type:square;
+    margin-left: 120px;
+}

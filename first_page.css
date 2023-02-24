@@ -1,0 +1,38 @@
+.grid{
+    background-color: rgb(12, 96, 100);
+}
+
+nav{
+  display: grid;
+}
+
+ul{
+    list-style-type: none;  
+}
+
+.a{
+    text-align: center;
+}
+
+.b{
+    display: block;
+    background-color: rgb(23, 138, 144);
+    padding: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5%;  
+    font-family:'Times New Roman', Times, serif;
+}
+.body{
+    background-color:  rgb(111, 202, 207);
+}
+
+
+
+/*Question:
+1) how to remove the underline of nav
+2) Send button in contact not working
+3) changes in first_page.css not reflected in previous work and projects pages*/
+
+
+

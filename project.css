@@ -1,41 +1,40 @@
 
 /*class heading not working*/
 
-.heading{
-    margin-top: 50px;
-    font-weight: bold;
-    margin-left: 30px;
-    font-family:'Times New Roman', Times, serif;
-}
 
 .project_1, .project_2{
     margin-left: 10px;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;    
-}
+   }
 
 .para, .para_1{
-    display: block;
-    margin-left: 210px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
+    padding-left: 10%;
     font-family:'Times New Roman', Times, serif;
+    padding-bottom: 5%;
     }
 
 
 .link{
-    display: block;
+    display: flex;
     background-color: rgb(23, 138, 144);
     color: black;
     text-decoration: none;
-    margin-right: 800px;
-    text-align: center;
+    width: 30%;
+    text-align: center;  
+
+
 }
 
 .projects{
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    margin-right: 300px;
-    margin-left: 300px;
+    width: 70%;
+    margin: auto;
     padding: 20px;
 }
+

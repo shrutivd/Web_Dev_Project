@@ -1,36 +1,39 @@
 // Add your code here
 
-const body = document.getElementById('body');
-body.style.display = 'flex';
-body.style.justifyContent = 'center';
 
 
-const center = document.getElementById('center');
-center.style.marginTop = "2rem";
-center.style.border =  "1px solid gray";
-center.style.borderRadius =  "5px";
-center.style.paddingBottom = '35px';
-center.style.paddingTop = '20px';
-
-const area = document.getElementById('area');
-area.style.display= 'block';
-area.style.backgroundColor = 'white';
-area.style.marginRight = '300px';
-area.style.marginLeft = '300px';
-area.style.padding = '20px';
-area.style.marginTop = '100px';
-
+//const body = document.getElementById('body');
+//body.style.display = 'flex';
+//body.style.justifyContent = 'center';
+//
+//
+//const center = document.getElementById('center');
+//center.style.marginTop = "2rem";
+//center.style.border =  "1px solid gray";
+//center.style.borderRadius =  "5px";
+//center.style.paddingBottom = '35px';
+//center.style.paddingTop = '20px';
+//
+//const area = document.getElementById('area');
+//area.style.display= 'block';
+//area.style.backgroundColor = 'white';
+//area.style.marginRight = '300px';
+//area.style.marginLeft = '300px';
+//area.style.padding = '20px';
+//area.style.marginTop = '100px';
+//
 
 const heading = document.getElementById('title');
 heading.style.width = 'min-content';
 heading.style.textTransform = 'uppercase';
-heading.style.marginLeft = '90px';
+heading.style.marginLeft = '120px';
 heading.style.textAlign = 'center';
 heading.style.color = 'black';
+heading.style.fontWeight = 'bold';
 
 //username label
 const user_label = document.getElementById("name");
-user_label.style.marginLeft = '20px';
+user_label.style.marginLeft = '1px';
 user_label.style.marginBottom = '20px';
 user_label.style.fontWeight = 'bold';
 user_label.style.fontSize = '20px';
@@ -42,7 +45,7 @@ const username = document.getElementById('username');
 username.style.width = '190px';
 username.style.float = 'right';
 username.style.marginRight =  '20px';
-username.style.marginLeft = '15px';
+username.style.marginLeft = '55px';
 
 //email label
 const email_label = document.getElementById("mail");
@@ -93,7 +96,7 @@ address.style.marginRight =  '20px';
 //message label
 const text_label = document.getElementById("text");
 text_label.style.marginLeft = '20px';
-text_label.style.marginTop = '50px';
+text_label.style.marginTop = '70px';
 text_label.style.marginBottom = '60px';
 text_label.style.fontWeight = 'bold';
 text_label.style.fontSize = '20px';
@@ -115,11 +118,13 @@ date_label.style.fontSize = '20px';
 date_label.style.color = 'black';
 
 
+
 //date textbox
 const date = document.getElementById("date");
 date.style.width = '190px';
 date.style.float = 'right';
 date.style.marginRight = '20px';
+date.style.marginTop = '10px';
 
 
 
@@ -129,27 +134,31 @@ button.style.marginTop = '20px';
 
 //send button
 const send = document.getElementById("btn_primary");
-send.style.backgroundColor = "green";
-send.style.border = '2px solid green';
+send.style.backgroundColor = "rgb(23, 138, 144)";
+send.style.border = '2px solid rgb(23, 138, 144)';
 send.style.borderRadius = '2px';
 send.style.color = 'white';
 send.style.marginLeft = '20px';
-send.style.padding = '7px 53px';
+send.style.padding = '6px 64px';
 send.style.fontWeight = 'bold';
 
 //reset button
 const reset = document.getElementById("btn_secondary");
 reset.style.backgroundColor = "white";
-reset.style.border = '2px solid green';
+reset.style.border = '2px solid rgb(23, 138, 144)';
 reset.style.borderRadius = '2px';
-reset.style.color = 'green';
+reset.style.color = 'rgb(23, 138, 144)';
 reset.style.marginLeft = '2px';
-reset.style.padding = '7px 53px';
+reset.style.padding = '6px 64px';
 reset.style.fontWeight = 'bold';
 
 
 const form = document.getElementById('form');
-form.addEventListener('send', (send_message) => {    
+form.style.width = '400px';
+form.style.margin = '50px auto';
+form.style.backgroundColor = 'white';
+
+form.addEventListener('submit', (send_message) => {    
     send_message.preventDefault();
     const display_username = form.elements.username.value;
     const display_email = form.elements.email.value;
@@ -158,11 +167,19 @@ form.addEventListener('send', (send_message) => {
     const display_message = form.elements.textarea.value;
     let display_date = form.elements.date.value;
 
-    //warning if no details are filled
-    if(display_username === "" && display_email === "" && display_phone === "" && display_address === "" && display_message === "" && display_date === "")
-    {
-        console.warn("You must enter some data to send information")
+
+    if(display_username === "" && display_email === "" && display_phone === ""){
+        console.log("Please enter name");
     }
+
+    if(display_address.length < 1){
+        console.log("please enter address");
+    }
+    //warning if no details are filled
+    //if(display_username === " " && display_email === " " && display_phone === " " && display_address === " " && display_message === " " && display_date === " ")
+    //{
+    //    console.warn("You must enter some data to send information");
+    //}
     else{
     console.group("==========Send Message===========");
       

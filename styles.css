@@ -1,5 +1,5 @@
 .grid{
-    background-color: rgb(12, 96, 100);
+    background-color: rgb(14, 136, 143);
 }
 
 nav{
@@ -10,17 +10,21 @@ ul{
     list-style-type: none;  
 }
 
-.a{
-    text-align: center;
-}
 
-.b{
-    display: block;
-    background-color: rgb(23, 138, 144);
+.a_class{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(27, 174, 182);
+    border: 0.5px solid rgb(50, 151, 160) ;
     padding: 15px;
     text-decoration: none;
-    margin-right: 20px;
     font-family:'Times New Roman', Times, serif;
+}
+
+.a_class:hover{
+    background-color: rgb(111, 202, 207);
 }
 
 .body{

@@ -1,66 +1,65 @@
-.grid{
-    background-color: rgb(14, 136, 143);
+/* Code for exercise 01-flex */
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: gray;
+	padding: 0;
+	margin: 0;
 }
 
-nav{
-  display: grid;
+.nav-list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-ul{
-    list-style-type: none;  
+.flex-item {
+	color: black;
+	font-weight: bold;
+	font-size: xx-large;
+	text-decoration: none;
+	padding: 25px;
+	display: block;
 }
 
-
-.a_class{
-    display: flex;
-    width: 90%;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: rgb(27, 174, 182);
-    border: 0.5px solid rgb(50, 151, 160) ;
-    padding: 15px;
-    text-decoration: none;
-    font-family:'Times New Roman', Times, serif;
+.flex-item:hover {
+	background-color: black;
+	color: white;
 }
 
-.a_class:hover{
-    background-color: rgb(111, 202, 207);
+.body {
+	/* background-color:  rgb(111, 202, 207);*/
+	background-color: black;
 }
 
-.body{
-    background-color:  rgb(111, 202, 207);
+.name {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	font-family: "Times New Roman", Times, serif;
 }
 
-.name{
-    font-weight: bold;
-    text-align: center;
-    margin-top: 50px;
-    font-family:'Times New Roman', Times, serif;
+.education {
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
-.education{
-    font-weight: bold;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
+.img_n_name {
+	display: block;
+	background-color: white;
+	margin-right: 300px;
+	margin-left: 300px;
+	padding: 20px;
 }
 
-.img_n_name{
-     display: block;
-    background-color: white;
-    margin-right: 300px;
-    margin-left: 300px;
-    padding: 20px;
+.heading {
+	color: White;
+	margin-top: 50px;
+	font-weight: bold;
+	margin-left: 30px;
+	font-family: "Times New Roman", Times, serif;
 }
-
-
-.heading{
-    margin-top: 50px;
-    font-weight: bold;
-    margin-left: 30px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-
-
-
-

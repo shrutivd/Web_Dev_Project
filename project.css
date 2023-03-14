@@ -1,48 +1,45 @@
-
 /*class heading not working*/
 
-
-.project_1, .project_2{
-    margin-left: 10px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;    
-   }
-
-.para, .para_1{
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-    padding-left: 10%;
-    font-family:'Times New Roman', Times, serif;
-    padding-bottom: 5%;
-    }
-
-
-.know{
-    display: flex;
-    width: 8%;
-    justify-content: left;
-    flex-wrap: wrap;
-    background-color: rgb(27, 174, 182);
-    border: 0.5px solid rgb(50, 151, 160) ;
-    color: black;
-    font-size:medium;
-    text-decoration: none;
-    font-family:'Times New Roman', Times, serif;
+.project_1,
+.project_2 {
+	margin-left: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
 }
 
-.know:hover{
-    background-color: rgb(111, 202, 207);
-    color: black;
+.para,
+.para_1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+	padding-left: 10%;
+	font-family: "Times New Roman", Times, serif;
+	padding-bottom: 5%;
 }
 
-
-.projects{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 70%;
-    margin: auto;
-    padding: 20px;
+.know {
+	display: flex;
+	width: 8%;
+	justify-content: left;
+	flex-wrap: wrap;
+	background-color: rgb(27, 174, 182);
+	border: 0.5px solid rgb(50, 151, 160);
+	color: black;
+	font-size: medium;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
 }
 
+.know:hover {
+	background-color: rgb(111, 202, 207);
+	color: black;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+}

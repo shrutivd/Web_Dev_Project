@@ -1,16 +1,32 @@
+.para {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+}
 
+.text {
+	/*display: flex;*/
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+}
 
-.para{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-    }
+.image {
+	display: block;
+	margin-bottom: 30px;
+}
 
-.text{    
-    display: flex;
-    background-color: white;
-    width: 70%;
-    margin:auto;
-   padding: 20px;
+.myname {
+	margin-top: 20px;
+	display: block;
+	font-weight: 600;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.status {
+	font-weight: 600;
+	margin-bottom: 40px;
+	font-family: "Times New Roman", Times, serif;
 }

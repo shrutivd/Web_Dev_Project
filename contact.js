@@ -1,222 +1,213 @@
 // Add your code here
 
-
-
-//const body = document.getElementById('body');
-//body.style.display = 'flex';
-//body.style.justifyContent = 'center';
-//
-//
-//const center = document.getElementById('center');
-//center.style.marginTop = "2rem";
-//center.style.border =  "1px solid gray";
-//center.style.borderRadius =  "5px";
-//center.style.paddingBottom = '35px';
-//center.style.paddingTop = '20px';
-//
-//const area = document.getElementById('area');
-//area.style.display= 'block';
-//area.style.backgroundColor = 'white';
-//area.style.marginRight = '300px';
-//area.style.marginLeft = '300px';
-//area.style.padding = '20px';
-//area.style.marginTop = '100px';
-//
-
-const heading = document.getElementById('title');
-heading.style.width = 'min-content';
-heading.style.textTransform = 'uppercase';
-heading.style.marginLeft = '120px';
-heading.style.textAlign = 'center';
-heading.style.color = 'black';
-heading.style.fontWeight = 'bold';
+const heading = document.getElementById("title");
+heading.style.width = "min-content";
+heading.style.textTransform = "uppercase";
+heading.style.margin = "auto";
+heading.style.textAlign = "center";
+heading.style.color = "black";
+heading.style.fontWeight = "bold";
 
 //username label
 const user_label = document.getElementById("name");
-user_label.style.marginLeft = '1px';
-user_label.style.marginBottom = '20px';
-user_label.style.fontWeight = 'bold';
-user_label.style.fontSize = '20px';
-user_label.style.color = 'black';
-
+user_label.style.marginLeft = "18px";
+user_label.style.marginBottom = "20px";
+user_label.style.fontWeight = "bold";
+user_label.style.fontSize = "25px";
+user_label.style.color = "black";
+user_label.style.fontFamily = "'Times New Roman', Times, serif";
 
 //username textbox
-const username = document.getElementById('username');
-username.style.width = '190px';
-username.style.float = 'right';
-username.style.marginRight =  '20px';
-username.style.marginLeft = '55px';
+const username = document.getElementById("username");
+username.style.width = "190px";
+username.style.float = "right";
+username.style.marginRight = "20px";
+username.style.marginLeft = "55px";
 
 //email label
 const email_label = document.getElementById("mail");
-email_label.style.marginLeft = '20px';
-email_label.style.fontWeight = 'bold';
-email_label.style.fontSize = '20px';
-email_label.style.color = 'black';
+email_label.style.marginLeft = "20px";
+email_label.style.fontSize = "25px";
+email_label.style.color = "black";
+email_label.style.fontFamily = "'Times New Roman', Times, serif";
+email_label.style.fontWeight = "bold";
 
 //email textbox
-const email = document.getElementById('email');
-email.style.width = '190px';
-email.style.float = 'right';
-email.style.marginRight =  '20px';
+const email = document.getElementById("email");
+email.style.width = "190px";
+email.style.float = "right";
+email.style.marginRight = "20px";
 
 //phone label
 const phone_label = document.getElementById("phn");
-phone_label.style.marginLeft = '20px';
-phone_label.style.fontWeight = 'bold';
-phone_label.style.fontSize = '20px';
-phone_label.style.marginBottom = '20px';
-phone_label.style.marginTop = '20px';
-phone_label.style.color = 'black';
-
+phone_label.style.marginLeft = "20px";
+phone_label.style.fontWeight = "bold";
+phone_label.style.fontSize = "25px";
+phone_label.style.marginBottom = "20px";
+phone_label.style.marginTop = "20px";
+phone_label.style.color = "black";
+phone_label.style.fontFamily = "'Times New Roman', Times, serif";
+phone_label.style.fontWeight = "bold";
 
 //phone textbox
-const phone = document.getElementById('phone');
-phone.style.width = '190px';
-phone.style.float = 'right';
-phone.style.marginRight =  '20px';
-phone.style.marginLeft = '15px';
+const phone = document.getElementById("phone");
+phone.style.width = "190px";
+phone.style.float = "right";
+phone.style.marginRight = "20px";
+phone.style.marginLeft = "15px";
 
 //address label
 const addr_label = document.getElementById("addr");
-addr_label.style.marginLeft = '20px';
-addr_label.style.marginTop = '20px';
-addr_label.style.marginBottom = '30px';
-addr_label.style.fontWeight = 'bold';
-addr_label.style.fontSize = '20px';
-addr_label.style.color = 'black';
+addr_label.style.marginLeft = "20px";
+addr_label.style.marginTop = "25px";
+addr_label.style.fontWeight = "bold";
+addr_label.style.fontSize = "25px";
+addr_label.style.color = "black";
+addr_label.style.fontFamily = "'Times New Roman', Times, serif";
+addr_label.style.fontWeight = "bold";
 
 //address textbox
-const address = document.getElementById('address');
-address.style.width = '190px';
-address.style.float = 'right';
-address.style.marginRight =  '20px';
-
+const address = document.getElementById("address");
+address.style.width = "190px";
+address.style.float = "right";
+address.style.marginRight = "20px";
 
 //message label
 const text_label = document.getElementById("text");
-text_label.style.marginLeft = '20px';
-text_label.style.marginTop = '70px';
-text_label.style.marginBottom = '60px';
-text_label.style.fontWeight = 'bold';
-text_label.style.fontSize = '20px';
-text_label.style.color = 'black';
+text_label.style.marginLeft = "20px";
+text_label.style.marginTop = "100px";
+text_label.style.marginBottom = "60px";
+text_label.style.fontWeight = "bold";
+text_label.style.fontSize = "25px";
+text_label.style.color = "black";
+text_label.style.fontFamily = "'Times New Roman', Times, serif";
+text_label.style.fontWeight = "bold";
 
 //message textbox
-const textarea = document.getElementById('textarea');
-textarea.style.width = '190px';
-textarea.style.float = 'right';
-textarea.style.marginRight =  '20px';
-
-
+const textarea = document.getElementById("textarea");
+textarea.style.width = "190px";
+textarea.style.float = "right";
+textarea.style.marginRight = "20px";
 
 //date label
 const date_label = document.getElementById("date_label");
-date_label.style.marginLeft = '20px';
-date_label.style.fontWeight = 'bold';
-date_label.style.fontSize = '20px';
-date_label.style.color = 'black';
-
-
+date_label.style.marginLeft = "20px";
+date_label.style.fontWeight = "bold";
+date_label.style.fontSize = "25px";
+date_label.style.color = "black";
+date_label.style.fontFamily = "'Times New Roman', Times, serif";
+date_label.style.fontWeight = "bold";
+date_label.style.marginTop = "20px";
 
 //date textbox
 const date = document.getElementById("date");
-date.style.width = '190px';
-date.style.float = 'right';
-date.style.marginRight = '20px';
-date.style.marginTop = '10px';
-
-
+date.style.width = "190px";
+date.style.float = "right";
+date.style.marginRight = "20px";
 
 //buttons
-const button = document.getElementById("btn")
-button.style.marginTop = '20px';
+const button = document.getElementById("btn");
+button.style.marginTop = "20px";
 
 //send button
 const send = document.getElementById("btn_primary");
-send.style.backgroundColor = "rgb(23, 138, 144)";
-send.style.border = '2px solid rgb(23, 138, 144)';
-send.style.borderRadius = '2px';
-send.style.color = 'white';
-send.style.marginLeft = '20px';
-send.style.padding = '6px 64px';
-send.style.fontWeight = 'bold';
+send.style.backgroundColor = "black";
+send.style.border = "2px solid black";
+send.style.borderRadius = "2px";
+send.style.color = "white";
+send.style.marginLeft = "20px";
+send.style.padding = "6px 64px";
+send.style.fontWeight = "bold";
+
+// Add hover styles using CSS
+send.style.transition = "background-color 0.3s ease";
+send.style.cursor = "pointer";
+
+send.addEventListener("mouseover", function () {
+	send.style.backgroundColor = "white";
+	send.style.color = "black";
+});
+
+send.addEventListener("mouseout", function () {
+	send.style.backgroundColor = "black";
+	send.style.color = "white";
+});
 
 //reset button
 const reset = document.getElementById("btn_secondary");
-reset.style.backgroundColor = "white";
-reset.style.border = '2px solid rgb(23, 138, 144)';
-reset.style.borderRadius = '2px';
-reset.style.color = 'rgb(23, 138, 144)';
-reset.style.marginLeft = '2px';
-reset.style.padding = '6px 64px';
-reset.style.fontWeight = 'bold';
+reset.style.backgroundColor = "black";
+reset.style.border = "2px solid black";
+reset.style.borderRadius = "2px";
+reset.style.color = "white";
+reset.style.marginLeft = "2px";
+reset.style.padding = "6px 64px";
+reset.style.fontWeight = "bold";
 
+// Add hover styles using CSS
+reset.style.transition = "background-color 0.3s ease";
+reset.style.cursor = "pointer";
 
-const form = document.getElementById('form');
-form.style.width = '400px';
-form.style.margin = '50px auto';
-form.style.backgroundColor = 'white';
-
-form.addEventListener('submit', (send_message) => {    
-    send_message.preventDefault();
-    const display_username = form.elements.username.value;
-    const display_email = form.elements.email.value;
-    const display_phone = form.elements.phone.value;
-    const display_address = form.elements.address.value;
-    const display_message = form.elements.textarea.value;
-    let display_date = form.elements.date.value;
-
-
-    if(display_username === "" && display_email === "" && display_phone === ""){
-        console.log("Please enter name");
-    }
-
-    if(display_address.length < 1){
-        console.log("please enter address");
-    }
-    //warning if no details are filled
-    //if(display_username === " " && display_email === " " && display_phone === " " && display_address === " " && display_message === " " && display_date === " ")
-    //{
-    //    console.warn("You must enter some data to send information");
-    //}
-    else{
-    console.group("==========Send Message===========");
-      
-    //for username    
-    console.log("Username: ", display_username);
-
-    //for email    
-    console.log("Email: ", display_email);
-
-     //for phone    
-    console.log("Phone: ", display_phone);
-
-     //for address    
-    console.log("Address: ", display_address);
-
-     //for message    
-    console.log("Message: ", display_message);
-
-       
-
-    //for date    
-    if(display_date === "")
-    {
-        console.log("Date : No submission");
-    }
-    else{
-        console.log("Date :", display_date);
-    }
-    console.groupEnd();
-    }
-
+reset.addEventListener("mouseover", function () {
+	reset.style.backgroundColor = "white";
+	reset.style.color = "black";
 });
 
+reset.addEventListener("mouseout", function () {
+	reset.style.backgroundColor = "black";
+	reset.style.color = "white";
+});
+
+const form = document.getElementById("form");
+form.style.width = "400px";
+form.style.margin = "50px auto";
+form.style.backgroundColor = "gray";
 
 
+form.addEventListener("submit", (send_message) => {
+	send_message.preventDefault();
+	const display_username = form.elements.username.value;
+	const display_email = form.elements.email.value;
+	const display_phone = form.elements.phone.value;
+	const display_address = form.elements.address.value;
+	const display_message = form.elements.textarea.value;
+	let display_date = form.elements.date.value;
 
+	if (display_username === "" && display_email === "" && display_phone === "") {
+		console.log("Please enter name");
+	}
 
+	if (display_address.length < 1) {
+		console.log("please enter address");
+	}
+	//warning if no details are filled
+	//if(display_username === " " && display_email === " " && display_phone === " " && display_address === " " && display_message === " " && display_date === " ")
+	//{
+	//    console.warn("You must enter some data to send information");
+	//}
+	else {
+		console.group("==========Send Message===========");
 
+		//for username
+		console.log("Username: ", display_username);
 
+		//for email
+		console.log("Email: ", display_email);
 
+		//for phone
+		console.log("Phone: ", display_phone);
+
+		//for address
+		console.log("Address: ", display_address);
+
+		//for message
+		console.log("Message: ", display_message);
+
+		//for date
+		if (display_date === "") {
+			console.log("Date : No submission");
+		} else {
+			console.log("Date :", display_date);
+		}
+		console.groupEnd();
+	}
+});

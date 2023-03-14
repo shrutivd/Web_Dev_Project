@@ -1,47 +1,43 @@
-
-
-.para{
-    display: flex;
-    margin-left: 100px;
-    flex-wrap: wrap;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-    margin-bottom: 0px;  
-    }
-
-.resume{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 70%;
-    margin: auto;
-    padding: 20px;
-
+.para {
+	display: flex;
+	margin-left: 100px;
+	flex-wrap: wrap;
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 0px;
 }
 
-.education{
-    display: flex;
-    font-weight: bold;
-    justify-content: left;
+.resume {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	padding: 20px;
 }
 
-.college{
-    font-weight: bold;
-    margin-left: 70px;
+.education {
+	display: flex;
+	font-weight: bold;
+	justify-content: left;
 }
 
-.title{
-    margin-left: 110px;
-    font-weight: bold;
-    margin-top: 0px;
-
+.college {
+	font-weight: bold;
+	margin-left: 70px;
 }
 
-.list{
-    list-style-type:square;
-    margin-left: 120px;
+.title {
+	margin-left: 110px;
+	font-weight: bold;
+	margin-top: 0px;
 }
 
-.subtitle{
-    margin-left: 100px;
+.list {
+	list-style-type: square;
+	margin-left: 120px;
+}
+
+.subtitle {
+	margin-left: 100px;
 }

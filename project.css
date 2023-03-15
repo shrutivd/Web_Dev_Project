@@ -19,27 +19,34 @@
 
 .know {
 	display: flex;
-	width: 8%;
+	width: 12%;
 	justify-content: left;
 	flex-wrap: wrap;
-	background-color: rgb(27, 174, 182);
-	border: 0.5px solid rgb(50, 151, 160);
-	color: black;
+	background-color: var(--gray3);
+	color: var(--black);
 	font-size: medium;
 	text-decoration: none;
 	font-family: "Times New Roman", Times, serif;
 }
 
+.know i.fa-github {
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 2rem;
+}
+
 .know:hover {
-	background-color: rgb(111, 202, 207);
-	color: black;
+	background-color: var(--black);
+	color: var(--white);
 }
 
 .projects {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
+	background-color: var(--white);
 	width: 70%;
 	margin: auto;
 	padding: 20px;
 }
+
+

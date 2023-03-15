@@ -1,10 +1,14 @@
 # Web_Dev_Project
 
 **Format of project:** Multipage
+
 **Number of pages:** 4
+
 **Title of pages:** About, Previous_work, Project, Contact
 
-**_Purpose of pages:_**
+**Deployment link:** https://shrutivd.github.io/Web_Dev_Project/
+
+###Purpose of pages:
 
 **About:**
 This page contains the professional information about myself. A summmary of how I landed were I am today.
@@ -18,7 +22,7 @@ This page has the details of project that I have worked on in past or recent pas
 **Contact:**
 This page has a form, which contains details to be filled in by the user and select the appropriate button.
 
-**_Working of the project:_**
+###Working of the project:
 
 1. Connect the "About.html" to the live server to start the project.
 2. The "About" page will be displayed in the default browser after being connected to localhost.
@@ -33,10 +37,10 @@ This page has a form, which contains details to be filled in by the user and sel
 11. Fill out all the details in the contact form, click on the "send" button, and check the sent message details on the "Console".
 12. To clear all details from the textboxes in the contact form, fill out the form again, but this time use the "reset" button
 
-**_Framework Used:_**
+###Framework Used:
 Bootstrap
 
-**_References:_**
+###References:
 
 1. MDN Web Docs
 2. GeeksforGeeks

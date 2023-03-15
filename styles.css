@@ -1,4 +1,24 @@
-/* Code for exercise 01-flex */
+:root {
+  --white: #ffffff;
+  --gray1: #333333;
+  --gray2: #555555;
+  --gray3: #cccccc;
+  --gray4: #aaaaaa;
+
+  --black: #080808;
+  --teal: #006060;
+  --lightteal: #008080;
+  --purple: #800080;
+  --navy: #000080;
+  --cyan: #17a2b8;
+  --violetred: #c71585;
+  --red: #ff0000;
+  --orange: #ffa500;
+  --green: #006400;
+}
+
+
+
 .navbar {
 	display: flex;
 	flex-wrap: wrap;
@@ -22,6 +42,7 @@
 	font-size: xx-large;
 	text-decoration: none;
 	padding: 25px;
+	margin-left: 25px;
 	display: block;
 }
 
@@ -29,6 +50,15 @@
 	background-color: black;
 	color: white;
 }
+
+.flex-item:active{
+	text-decoration: underline;
+}
+
+
+
+
+
 
 .body {
 	/* background-color:  rgb(111, 202, 207);*/

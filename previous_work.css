@@ -10,7 +10,7 @@
 .resume {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
+	background-color: var(--white);
 	width: 70%;
 	margin: auto;
 	padding: 20px;

@@ -7,7 +7,7 @@
 
 .text {
 	/*display: flex;*/
-	background-color: white;
+	background-color:var(--white);
 	width: 70%;
 	margin: auto;
 	padding: 20px;

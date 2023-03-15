@@ -162,29 +162,26 @@ form.style.width = "400px";
 form.style.margin = "50px auto";
 form.style.backgroundColor = "gray";
 
-
 form.addEventListener("submit", (send_message) => {
 	send_message.preventDefault();
-	const display_username = form.elements.username.value;
+
+    const display_username = form.elements.username.value;
 	const display_email = form.elements.email.value;
 	const display_phone = form.elements.phone.value;
-	const display_address = form.elements.address.value;
-	const display_message = form.elements.textarea.value;
+	const display_address = form.elements.address.value.trim();
+	const display_message = form.elements.textarea.value.trim();
 	let display_date = form.elements.date.value;
 
-	if (display_username === "" && display_email === "" && display_phone === "") {
-		console.log("Please enter name");
-	}
-
-	if (display_address.length < 1) {
-		console.log("please enter address");
-	}
-	//warning if no details are filled
-	//if(display_username === " " && display_email === " " && display_phone === " " && display_address === " " && display_message === " " && display_date === " ")
-	//{
-	//    console.warn("You must enter some data to send information");
-	//}
-	else {
+	if (
+		display_username === "" &&
+		display_email === "" &&
+		display_phone === "" &&
+		display_address === "" &&
+		display_message === "" &&
+		display_date === "" 
+	) {
+		console.warn("You must enter some data to submit this form");
+	} else {
 		console.group("==========Send Message===========");
 
 		//for username
@@ -197,10 +194,10 @@ form.addEventListener("submit", (send_message) => {
 		console.log("Phone: ", display_phone);
 
 		//for address
-		console.log("Address: ", display_address);
+	     console.log("Address: ", display_address);
 
-		//for message
-		console.log("Message: ", display_message);
+	    //for message
+	     console.log("Message: ", display_message);
 
 		//for date
 		if (display_date === "") {
@@ -209,5 +206,10 @@ form.addEventListener("submit", (send_message) => {
 			console.log("Date :", display_date);
 		}
 		console.groupEnd();
+
+
+
 	}
+
+	
 });

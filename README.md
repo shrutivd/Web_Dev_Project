@@ -8,7 +8,7 @@
 
 **Deployment link:** https://shrutivd.github.io/Web_Dev_Project/
 
-###Purpose of pages:
+### Purpose of pages:
 
 **About:**
 This page contains the professional information about myself. A summmary of how I landed were I am today.
@@ -22,25 +22,27 @@ This page has the details of project that I have worked on in past or recent pas
 **Contact:**
 This page has a form, which contains details to be filled in by the user and select the appropriate button.
 
-###Working of the project:
+### Working of the project:
 
 1. Connect the "About.html" to the live server to start the project.
 2. The "About" page will be displayed in the default browser after being connected to localhost.
 3. The "About" page will have a navbar that enables navigation to other project pages.
-4. Use the navbar links to access the required section of the project.
-5. To view the "Previous_work" page, click on the corresponding navbar link.
-6. The "Previous_work" page will show details of the developer's past work and education.
-7. Use the navbar on the "Previous_work" page to go to the "Project" page.
-8. The "Project" page will display the project description, along with the Github link.
-9. To view the code and other details of the project, click on the Github link.
-10. Return to the "Project" page and use the navbar to access the "Contact" page.
-11. Fill out all the details in the contact form, click on the "send" button, and check the sent message details on the "Console".
-12. To clear all details from the textboxes in the contact form, fill out the form again, but this time use the "reset" button
+4. Each page shows a navigation link for rest of the pages except the current page.
+5. Use the navbar links to access the required pages of the project.
+6. To view the "Previous_work" page, click on the corresponding navbar link.
+7. The "Previous_work" page will show details of the developer's past work and education.
+8. Use the navbar on the "Previous_work" page to go to the "Project" page.
+9. The "Project" page will display the project description, along with the Github link.
+10. To view the code and other details of the project, click on the Github link.
+11. Return to the "Project" page and use the navbar to access the "Contact" page.
+12. Fill out all the details in the contact form, click on the "send" button, and check the sent message details on the "Console".
+13. To clear all details from the textboxes in the contact form, fill out the form again, but this time use the "reset" button
 
-###Framework Used:
-Bootstrap
+### Library used:
 
-###References:
+https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css --- for github icon
+
+### References:
 
 1. MDN Web Docs
 2. GeeksforGeeks

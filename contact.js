@@ -5,7 +5,7 @@ heading.style.width = "min-content";
 heading.style.textTransform = "uppercase";
 heading.style.margin = "auto";
 heading.style.textAlign = "center";
-heading.style.color = "black";
+heading.style.color = "var(--black)";
 heading.style.fontWeight = "bold";
 
 //username label
@@ -14,7 +14,7 @@ user_label.style.marginLeft = "18px";
 user_label.style.marginBottom = "20px";
 user_label.style.fontWeight = "bold";
 user_label.style.fontSize = "25px";
-user_label.style.color = "black";
+user_label.style.color = "var(--black)";
 user_label.style.fontFamily = "'Times New Roman', Times, serif";
 
 //username textbox
@@ -28,7 +28,7 @@ username.style.marginLeft = "55px";
 const email_label = document.getElementById("mail");
 email_label.style.marginLeft = "20px";
 email_label.style.fontSize = "25px";
-email_label.style.color = "black";
+email_label.style.color = "var(--black)";
 email_label.style.fontFamily = "'Times New Roman', Times, serif";
 email_label.style.fontWeight = "bold";
 
@@ -45,7 +45,7 @@ phone_label.style.fontWeight = "bold";
 phone_label.style.fontSize = "25px";
 phone_label.style.marginBottom = "20px";
 phone_label.style.marginTop = "20px";
-phone_label.style.color = "black";
+phone_label.style.color = "var(--black)";
 phone_label.style.fontFamily = "'Times New Roman', Times, serif";
 phone_label.style.fontWeight = "bold";
 
@@ -62,7 +62,7 @@ addr_label.style.marginLeft = "20px";
 addr_label.style.marginTop = "25px";
 addr_label.style.fontWeight = "bold";
 addr_label.style.fontSize = "25px";
-addr_label.style.color = "black";
+addr_label.style.color = "var(--black)";
 addr_label.style.fontFamily = "'Times New Roman', Times, serif";
 addr_label.style.fontWeight = "bold";
 
@@ -79,7 +79,7 @@ text_label.style.marginTop = "100px";
 text_label.style.marginBottom = "60px";
 text_label.style.fontWeight = "bold";
 text_label.style.fontSize = "25px";
-text_label.style.color = "black";
+text_label.style.color = "var(--black)";
 text_label.style.fontFamily = "'Times New Roman', Times, serif";
 text_label.style.fontWeight = "bold";
 
@@ -94,7 +94,7 @@ const date_label = document.getElementById("date_label");
 date_label.style.marginLeft = "20px";
 date_label.style.fontWeight = "bold";
 date_label.style.fontSize = "25px";
-date_label.style.color = "black";
+date_label.style.color = "var(--black)";
 date_label.style.fontFamily = "'Times New Roman', Times, serif";
 date_label.style.fontWeight = "bold";
 date_label.style.marginTop = "20px";
@@ -111,10 +111,10 @@ button.style.marginTop = "20px";
 
 //send button
 const send = document.getElementById("btn_primary");
-send.style.backgroundColor = "black";
-send.style.border = "2px solid black";
+send.style.backgroundColor = "var(--black)";
+send.style.border = "2px solid var(--black)";
 send.style.borderRadius = "2px";
-send.style.color = "white";
+send.style.color = "var(--white)";
 send.style.marginLeft = "20px";
 send.style.padding = "6px 64px";
 send.style.fontWeight = "bold";
@@ -124,21 +124,21 @@ send.style.transition = "background-color 0.3s ease";
 send.style.cursor = "pointer";
 
 send.addEventListener("mouseover", function () {
-	send.style.backgroundColor = "white";
-	send.style.color = "black";
+	send.style.backgroundColor = "var(--white)";
+	send.style.color = "var(--white)";
 });
 
 send.addEventListener("mouseout", function () {
-	send.style.backgroundColor = "black";
-	send.style.color = "white";
+	send.style.backgroundColor = "var(--black)";
+	send.style.color = "var(--white)";
 });
 
 //reset button
 const reset = document.getElementById("btn_secondary");
-reset.style.backgroundColor = "black";
-reset.style.border = "2px solid black";
+reset.style.backgroundColor = "var(--black)";
+reset.style.border = "2px solid var(--black)";
 reset.style.borderRadius = "2px";
-reset.style.color = "white";
+reset.style.color = "var(--white)";
 reset.style.marginLeft = "2px";
 reset.style.padding = "6px 64px";
 reset.style.fontWeight = "bold";
@@ -148,19 +148,19 @@ reset.style.transition = "background-color 0.3s ease";
 reset.style.cursor = "pointer";
 
 reset.addEventListener("mouseover", function () {
-	reset.style.backgroundColor = "white";
-	reset.style.color = "black";
+	reset.style.backgroundColor = "var(--white)";
+	reset.style.color = "var(--black)";
 });
 
 reset.addEventListener("mouseout", function () {
-	reset.style.backgroundColor = "black";
-	reset.style.color = "white";
+	reset.style.backgroundColor = "var(--black)";
+	reset.style.color = "var(--white)";
 });
 
 const form = document.getElementById("form");
 form.style.width = "400px";
 form.style.margin = "50px auto";
-form.style.backgroundColor = "gray";
+form.style.backgroundColor = "var(--gray3)";
 
 form.addEventListener("submit", (send_message) => {
 	send_message.preventDefault();

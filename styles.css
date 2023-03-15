@@ -1,24 +1,21 @@
-
-
 :root {
-  --white: #ffffff;
-  --gray1: #333333;
-  --gray2: #555555;
-  --gray3: #cccccc;
-  --gray4: #aaaaaa;
+	--white: #ffffff;
+	--gray1: #333333;
+	--gray2: #555555;
+	--gray3: #cccccc;
+	--gray4: #aaaaaa;
 
-  --black: #080808;
-  --teal: #006060;
-  --lightteal: #008080;
-  --purple: #800080;
-  --navy: #000080;
-  --cyan: #17a2b8;
-  --violetred: #c71585;
-  --red: #ff0000;
-  --orange: #ffa500;
-  --green: #006400;
+	--black: #080808;
+	--teal: #006060;
+	--lightteal: #008080;
+	--purple: #800080;
+	--navy: #000080;
+	--cyan: #17a2b8;
+	--violetred: #c71585;
+	--red: #ff0000;
+	--orange: #ffa500;
+	--green: #006400;
 }
-
 
 .navbar {
 	display: flex;
@@ -34,20 +31,18 @@
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
-    width: 80%;
 	justify-content: center;
 }
 
 .flex-item {
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	color: var(--black);
 	font-weight: bold;
 	font-size: xx-large;
 	text-decoration: none;
 	padding: 25px;
 	margin-left: 25px;
-  	
 }
 
 .flex-item:hover {
@@ -55,12 +50,9 @@
 	color: var(--white);
 }
 
-.flex-item:focus{
+.flex-item:focus {
 	text-decoration: underline;
 }
-
-
-
 
 .body {
 	background-color: var(--black);

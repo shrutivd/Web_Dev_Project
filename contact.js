@@ -165,7 +165,7 @@ form.style.backgroundColor = "var(--gray3)";
 form.addEventListener("submit", (send_message) => {
 	send_message.preventDefault();
 
-    const display_username = form.elements.username.value;
+	const display_username = form.elements.username.value;
 	const display_email = form.elements.email.value;
 	const display_phone = form.elements.phone.value;
 	const display_address = form.elements.address.value.trim();
@@ -178,7 +178,7 @@ form.addEventListener("submit", (send_message) => {
 		display_phone === "" &&
 		display_address === "" &&
 		display_message === "" &&
-		display_date === "" 
+		display_date === ""
 	) {
 		console.warn("You must enter some data to submit this form");
 	} else {
@@ -194,10 +194,10 @@ form.addEventListener("submit", (send_message) => {
 		console.log("Phone: ", display_phone);
 
 		//for address
-	     console.log("Address: ", display_address);
+		console.log("Address: ", display_address);
 
-	    //for message
-	     console.log("Message: ", display_message);
+		//for message
+		console.log("Message: ", display_message);
 
 		//for date
 		if (display_date === "") {
@@ -206,10 +206,5 @@ form.addEventListener("submit", (send_message) => {
 			console.log("Date :", display_date);
 		}
 		console.groupEnd();
-
-
-
 	}
-
-	
 });

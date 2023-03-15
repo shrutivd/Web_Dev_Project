@@ -125,7 +125,7 @@ send.style.cursor = "pointer";
 
 send.addEventListener("mouseover", function () {
 	send.style.backgroundColor = "var(--white)";
-	send.style.color = "var(--white)";
+	send.style.color = "var(--black)";
 });
 
 send.addEventListener("mouseout", function () {

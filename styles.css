@@ -18,11 +18,10 @@
 }
 
 
-
 .navbar {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: gray;
+	background-color: var(--gray2);
 	padding: 0;
 	margin: 0;
 }
@@ -37,7 +36,8 @@
 }
 
 .flex-item {
-	color: black;
+	display: flex;
+	color: var(--black);
 	font-weight: bold;
 	font-size: xx-large;
 	text-decoration: none;
@@ -47,8 +47,8 @@
 }
 
 .flex-item:hover {
-	background-color: black;
-	color: white;
+	background-color: var(--black);
+	color: var(--white);
 }
 
 .flex-item:active{
@@ -56,13 +56,8 @@
 }
 
 
-
-
-
-
 .body {
-	/* background-color:  rgb(111, 202, 207);*/
-	background-color: black;
+	background-color: var(--black);
 }
 
 .name {
@@ -80,14 +75,14 @@
 
 .img_n_name {
 	display: block;
-	background-color: white;
+	background-color: var(--white);
 	margin-right: 300px;
 	margin-left: 300px;
 	padding: 20px;
 }
 
 .heading {
-	color: White;
+	color: var(--white);
 	margin-top: 50px;
 	font-weight: bold;
 	margin-left: 30px;

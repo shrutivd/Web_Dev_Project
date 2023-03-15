@@ -6,7 +6,6 @@
 }
 
 .text {
-	/*display: flex;*/
 	background-color:var(--white);
 	width: 70%;
 	margin: auto;

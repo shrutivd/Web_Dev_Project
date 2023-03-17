@@ -6,6 +6,7 @@
 }
 
 .text {
+	margin-top: 20px;
 	background-color: var(--white);
 	width: 70%;
 	margin: auto;

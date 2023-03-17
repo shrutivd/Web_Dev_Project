@@ -8,16 +8,15 @@ heading.style.textAlign = "center";
 heading.style.color = "var(--black)";
 heading.style.fontWeight = "bold";
 
-//username label
+//name label
 const user_label = document.getElementById("name");
-user_label.style.marginLeft = "18px";
 user_label.style.marginBottom = "20px";
 user_label.style.fontWeight = "bold";
 user_label.style.fontSize = "25px";
 user_label.style.color = "var(--black)";
 user_label.style.fontFamily = "'Times New Roman', Times, serif";
 
-//username textbox
+//name textbox
 const username = document.getElementById("username");
 username.style.width = "190px";
 username.style.float = "right";
@@ -26,7 +25,7 @@ username.style.marginLeft = "55px";
 
 //email label
 const email_label = document.getElementById("mail");
-email_label.style.marginLeft = "20px";
+email_label.style.marginLeft = "30px";
 email_label.style.fontSize = "25px";
 email_label.style.color = "var(--black)";
 email_label.style.fontFamily = "'Times New Roman', Times, serif";
@@ -40,7 +39,7 @@ email.style.marginRight = "20px";
 
 //phone label
 const phone_label = document.getElementById("phn");
-phone_label.style.marginLeft = "20px";
+phone_label.style.marginLeft = "30px";
 phone_label.style.fontWeight = "bold";
 phone_label.style.fontSize = "25px";
 phone_label.style.marginBottom = "20px";
@@ -56,26 +55,10 @@ phone.style.float = "right";
 phone.style.marginRight = "20px";
 phone.style.marginLeft = "15px";
 
-//address label
-const addr_label = document.getElementById("addr");
-addr_label.style.marginLeft = "20px";
-addr_label.style.marginTop = "25px";
-addr_label.style.fontWeight = "bold";
-addr_label.style.fontSize = "25px";
-addr_label.style.color = "var(--black)";
-addr_label.style.fontFamily = "'Times New Roman', Times, serif";
-addr_label.style.fontWeight = "bold";
-
-//address textbox
-const address = document.getElementById("address");
-address.style.width = "190px";
-address.style.float = "right";
-address.style.marginRight = "20px";
-
 //message label
 const text_label = document.getElementById("text");
-text_label.style.marginLeft = "20px";
-text_label.style.marginTop = "100px";
+text_label.style.marginLeft = "30px";
+text_label.style.marginTop = "10px";
 text_label.style.marginBottom = "60px";
 text_label.style.fontWeight = "bold";
 text_label.style.fontSize = "25px";
@@ -88,22 +71,6 @@ const textarea = document.getElementById("textarea");
 textarea.style.width = "190px";
 textarea.style.float = "right";
 textarea.style.marginRight = "20px";
-
-//date label
-const date_label = document.getElementById("date_label");
-date_label.style.marginLeft = "20px";
-date_label.style.fontWeight = "bold";
-date_label.style.fontSize = "25px";
-date_label.style.color = "var(--black)";
-date_label.style.fontFamily = "'Times New Roman', Times, serif";
-date_label.style.fontWeight = "bold";
-date_label.style.marginTop = "20px";
-
-//date textbox
-const date = document.getElementById("date");
-date.style.width = "190px";
-date.style.float = "right";
-date.style.marginRight = "20px";
 
 //buttons
 const button = document.getElementById("btn");
@@ -165,27 +132,23 @@ form.style.backgroundColor = "var(--gray3)";
 form.addEventListener("submit", (send_message) => {
 	send_message.preventDefault();
 
-	const display_username = form.elements.username.value;
+	const display_name = form.elements.username.value;
 	const display_email = form.elements.email.value;
 	const display_phone = form.elements.phone.value;
-	const display_address = form.elements.address.value.trim();
 	const display_message = form.elements.textarea.value.trim();
-	let display_date = form.elements.date.value;
 
 	if (
-		display_username === "" &&
+		display_name === "" &&
 		display_email === "" &&
 		display_phone === "" &&
-		display_address === "" &&
-		display_message === "" &&
-		display_date === ""
+		display_message === ""
 	) {
 		console.warn("You must enter some data to submit this form");
 	} else {
 		console.group("==========Send Message===========");
 
 		//for username
-		console.log("Username: ", display_username);
+		console.log("Username: ", display_name);
 
 		//for email
 		console.log("Email: ", display_email);
@@ -199,12 +162,6 @@ form.addEventListener("submit", (send_message) => {
 		//for message
 		console.log("Message: ", display_message);
 
-		//for date
-		if (display_date === "") {
-			console.log("Date : No submission");
-		} else {
-			console.log("Date :", display_date);
-		}
 		console.groupEnd();
 	}
 });

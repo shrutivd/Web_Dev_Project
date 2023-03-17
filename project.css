@@ -19,7 +19,7 @@
 
 .know {
 	display: flex;
-	width: 12%;
+	width: 15%;
 	justify-content: left;
 	flex-wrap: wrap;
 	background-color: var(--gray3);

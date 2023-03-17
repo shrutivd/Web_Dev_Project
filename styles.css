@@ -82,3 +82,7 @@
 	margin-left: 300px;
 	padding: 20px;
 }
+
+.heading {
+	color: var(--white);
+}

@@ -27,7 +27,7 @@ This page has a form, which contains details to be filled in by the user and sel
 1. Connect the "About.html" to the live server to start the project.
 2. The "About" page will be displayed in the default browser after being connected to localhost.
 3. The "About" page will have a navbar that enables navigation to other project pages.
-4. Each page shows a navigation link for rest of the pages except the current page.
+4. Each page has navigation links for all the pages.
 5. Use the navbar links to access the required pages of the project.
 6. To view the "Previous_work" page, click on the corresponding navbar link.
 7. The "Previous_work" page will show details of the developer's past work and education.
